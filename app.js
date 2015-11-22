@@ -12,9 +12,9 @@ var parseUrlEnconded = bodyParser.urlencoded({
 
 var gateway = braintree.connect({
   environment: braintree.Environment.Sandbox,
-  merchantId: 'ffdqc9fyffn7yn2j',
-  publicKey: 'qj65nndbnn6qyjkp',
-  privateKey: 'a3de3bb7dddf68ed3c33f4eb6d9579ca'
+  merchantId: 'r9265s5vyndbzj5w',
+  publicKey: 's23mwbzt7ynkgr3w',
+  privateKey: '482b49f69f46ac2410c442f99a46b46c'
 });
 
 app.use(express.static('public'));
